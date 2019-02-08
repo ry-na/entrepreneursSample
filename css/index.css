@@ -11,12 +11,12 @@
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 
   max-width: 720px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 article {
 	position: relative;
-	margin: 0 auto;
+	margin: auto;
 }
 
 .article-title {
@@ -24,5 +24,40 @@ article {
 	top: 0;
 }
 
-  
+.flow{
+	width: 720px;
+	height: 170px;
+	margin: auto;
+}
+
+.flow p{
+	display:inline-block;
+	vertical-align:top; 
+}
+
+
+.flowArrow{
+	width: 120px;
+	float: left;
+  }
+  .flowArrow::before{
+	content: "";
+	display: block;
+	margin: auto;
+	width: 120px;
+	height: 60px;
+	background: rgb(4, 253, 241);
+  }
+  .flowArrow::after{
+	content: "";
+	display:block;
+	border-top: 70px solid  rgb(4, 253, 241);
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	transform-origin: left top;
+	transform: scaleY(.5);
+  }
+.flowText{
+	width: 600px;
+}
   
