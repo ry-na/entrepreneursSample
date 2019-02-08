@@ -1,0 +1,28 @@
+.topLink {
+	width:360px; height:135px;
+	object-fit: cover;
+}
+#title {
+	text-align: center;
+}
+
+.topLinkList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+article {
+	position: relative;
+	margin: 0 auto;
+}
+
+.article-title {
+	position: absolute;
+	top: 0;
+}
+
+  
+  
