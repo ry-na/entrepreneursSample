@@ -1,5 +1,5 @@
 .topLink {
-	width:360px; height:135px;
+	width:240px; height:90px;
 	object-fit: cover;
 }
 #title {
@@ -8,9 +8,9 @@
 
 .topLinkList {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 
-  max-width: 1080px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
