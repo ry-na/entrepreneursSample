@@ -6,6 +6,10 @@
 	text-align: center;
 }
 
+#branding {
+	text-align: center;
+}
+
 .topLinkList {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
